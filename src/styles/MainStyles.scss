@@ -1,0 +1,228 @@
+.content {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1130' height='322'%3E%3Crect x='0' y='0' width='1130' height='322' fill='white' /%3E%3Cellipse cx='867' cy='110' rx='160' ry='161' fill='%23e75626' /%3E%3C/svg%3E");
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  cursor: default;
+  color: transparent;
+
+  h1 {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120%;
+    letter-spacing: 2px;
+  }
+
+  span {
+    color: #171719;
+    text-shadow: 0 0 1px #ffffff,
+    0 0 1px #ffffff,
+    0 0 1px #ffffff,
+    0 0 1px #ffffff;
+    letter-spacing: 2px;
+  }
+}
+
+.planet {
+  width: 320px;
+  height: 330px;
+  position: absolute;
+  top: -50px;
+  right: 100px;
+}
+
+.registration {
+  .test {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 120%;
+    color: #E75626;
+  }
+
+  .name {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .name_data {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #E75626;
+    margin-top: 20px;
+  }
+
+  .input {
+    width: 421px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: white;
+    font-family: Montserrat;
+    margin-top: 10px;
+  }
+
+  .button {
+    background: #E75626;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Bebas Neue";
+    padding: 8px;
+    width: 148px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  .button_disabled {
+    background: #E75626;
+    border-radius: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Bebas Neue";
+    padding: 8px;
+    width: 148px;
+    height: 38px;
+    font-size: 18px;
+    opacity: .5
+  }
+
+  .button_div {
+    margin-top: 20px;
+  }
+}
+
+.id {
+  width: 199px;
+  border-bottom: 0.5px solid #D2C4C4;
+
+  .number {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #E75626;
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .text {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.data_user {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #E75626;
+  max-width: 145px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.listing {
+  margin-left: 247px;
+  .partList {
+    color: white;     font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    padding-bottom: 30px;
+  }
+
+  .table_th {
+    width: 662px;
+    border-bottom: 1px solid white;
+    .tableHead {
+      width: calc(100% - 27px);
+      border-collapse: separate;
+      border-spacing: 0;
+      table-layout: fixed;
+      position: relative;
+      th {
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        color: white;
+        text-align: left;
+        padding: 0 0 16px;
+        width: 180px;
+      }
+    }
+  }
+
+  .headContainer {
+    width: 695px;
+    height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    table {
+      width: calc(100% - 27px);
+      border-collapse: separate;
+      border-spacing: 0;
+      table-layout: fixed;
+      position: relative;
+      tbody {
+        overflow: hidden;
+        color: white;
+        .me {
+          color: #E75626;
+        }
+        tr {
+          td {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 16px 24px 16px 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            border-bottom: 1px solid white;
+          }
+        }
+        tr:hover {
+          cursor: pointer;
+        }
+        .span_button {
+          position: absolute;
+          right: 0;
+          cursor: pointer;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
